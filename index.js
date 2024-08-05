@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const port = 5000; // Change this to any other available port
+const port = process.env.PORT || 3000; // Change this to any other available port
 ;
 
 // Route for the root path
